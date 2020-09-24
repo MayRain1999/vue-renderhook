@@ -9,6 +9,9 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
+  "env": {
+    "node": true
+  },
   "rules": {
     "@typescript-eslint/explicit-module-boundary-types": "off"
   }
