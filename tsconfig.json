@@ -10,13 +10,13 @@
     "declarationMap": true,
     "outDir": "./dist",
     "strict": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "baseUrl": "./",
     //定义类型定义文件的根目录
     "esModuleInterop": true,
     // 引入辅助函数集
     "importHelpers": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
   },
   "include": ["./src/**/*.ts"],
   "exclude": ["./dist", "./node_modules"]

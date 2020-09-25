@@ -1514,6 +1514,11 @@ date-fns@^1.27.2:
   resolved "http://bnpm.byted.org/date-fns/download/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
   integrity sha1-LnG/CxGRU9u0zE6I2epaz7UNwFw=
 
+de-indent@^1.0.2:
+  version "1.0.2"
+  resolved "http://bnpm.byted.org/de-indent/download/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
+  integrity sha1-sgOOhG3DO6pXlhKNCAS0VbjB4h0=
+
 debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
   resolved "http://bnpm.byted.org/debug/download/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -2404,6 +2409,11 @@ has-values@^1.0.0:
   dependencies:
     is-number "^3.0.0"
     kind-of "^4.0.0"
+
+he@^1.1.0:
+  version "1.2.0"
+  resolved "http://bnpm.byted.org/he/download/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
+  integrity sha1-hK5l+n6vsWX922FWauFLrwVmTw8=
 
 homedir-polyfill@^1.0.0:
   version "1.0.3"
@@ -5145,10 +5155,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^3.9.3:
-  version "3.9.3"
-  resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.9.3.tgz#d3ac8883a97c26139e42df5e93eeece33d610b8a"
-  integrity sha1-06yIg6l8JhOeQt9ek+7s4z1hC4o=
+typescript@^4.0.3:
+  version "4.0.3"
+  resolved "http://bnpm.byted.org/typescript/download/typescript-4.0.3.tgz#153bbd468ef07725c1df9c77e8b453f8d36abba5"
+  integrity sha1-FTu9Ro7wdyXB35x36LRT+NNqu6U=
 
 unc-path-regex@^0.1.0:
   version "0.1.2"
@@ -5250,10 +5260,18 @@ vinyl@^1.1.1:
     clone-stats "^0.0.1"
     replace-ext "0.0.1"
 
-vue-router@^3.4.3:
-  version "3.4.3"
-  resolved "http://bnpm.byted.org/vue-router/download/vue-router-3.4.3.tgz#fa93768616ee338aa174f160ac965167fa572ffa"
-  integrity sha1-+pN2hhbuM4qhdPFgrJZRZ/pXL/o=
+vue-router@^3.4.4:
+  version "3.4.4"
+  resolved "http://bnpm.byted.org/vue-router/download/vue-router-3.4.4.tgz#ad0c27f6353107ed527afa3afc5da69ce3ea3841"
+  integrity sha1-rQwn9jUxB+1Sevo6/F2mnOPqOEE=
+
+vue-template-compiler@^2.6.12:
+  version "2.6.12"
+  resolved "http://bnpm.byted.org/vue-template-compiler/download/vue-template-compiler-2.6.12.tgz#947ed7196744c8a5285ebe1233fe960437fcc57e"
+  integrity sha1-lH7XGWdEyKUoXr4SM/6WBDf8xX4=
+  dependencies:
+    de-indent "^1.0.2"
+    he "^1.1.0"
 
 vue@^2.6.12:
   version "2.6.12"
