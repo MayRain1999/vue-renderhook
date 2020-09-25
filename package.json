@@ -42,5 +42,6 @@
     "vue-template-compiler": "^2.6.12",
     "vuex": "^3.5.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
